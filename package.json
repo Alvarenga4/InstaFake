@@ -1,0 +1,64 @@
+{
+  "name": "animatedScreen",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "axios": "^0.19.0",
+    "email-validator": "^2.0.4",
+    "gerador-validador-cpf": "^4.0.1",
+    "jetifier": "^1.6.5",
+    "lottie-react-native": "^3.2.1",
+    "moment": "^2.24.0",
+    "native-base": "^2.13.8",
+    "react-native-check-box": "^2.1.7",
+    "react-native-gesture-handler": "^1.5.0",
+    "react-native-image-pan-zoom": "^2.1.11",
+    "react-native-image-picker": "^1.1.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-paper": "^3.6.0",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-screens": "^2.0.0-alpha.19",
+    "react-native-shimmer-placeholder": "^1.0.35",
+    "react-native-svg": "^10.1.0",
+    "react-native-svg-uri": "^1.2.3",
+    "react-native-text-input-mask": "^1.0.6",
+    "react-native-textinput-effects": "^0.5.1",
+    "react-native-validator-form": "^1.0.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-material-bottom-tabs": "^2.1.5",
+    "react-navigation-stack": "^1.10.3",
+    "react-navigation-tabs": "^2.7.0",
+    "rn-fetch-blob": "^0.11.2",
+    "styled-components": "^4.4.0",
+    "validar-cpf": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.4.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
