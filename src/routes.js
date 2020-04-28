@@ -34,7 +34,7 @@ const StackRoute = createStackNavigator({
         headerTitleStyle: {
           fontFamily: 'Lobster-Regular',
           color: '#000',
-          fontSize: 30,
+          fontSize: 24,
         },
         headerStyle: {
           backgroundColor: '#FFF',
