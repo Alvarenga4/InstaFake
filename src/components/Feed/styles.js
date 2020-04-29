@@ -7,6 +7,7 @@ export const VerticalScroll = styled.ScrollView.attrs({
   },
 })`
   background-color: #fff;
+  margin-bottom: 20;
 `;
 
 export const Container = styled.View`
@@ -67,4 +68,10 @@ export const ImageContentView = styled.View`
 export const ImageContent = styled.Image`
   height: 300;
   width: 100%;
+`;
+
+export const ActionsSession = styled.View.attrs({
+  paddingHorizontal: 20,
+})`
+  margin-top: 10;
 `;
