@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  background-color: #FFF;
+  background-color: #fff;
   align-items: center;
   justify-content: center;
   height: 100;
@@ -34,9 +34,13 @@ export const ViewAuthImage = styled.View`
   overflow: hidden;
 `;
 
+export const Col = styled.View`
+  flex-direction: column;
+`;
+
 export const ViewImage = styled.View`
   border-width: 2;
-  border-color: #F00;
+  border-color: #f00;
   height: 70;
   width: 70;
   margin-left: 20;
@@ -54,7 +58,7 @@ export const StoryImage = styled.Image`
 `;
 
 export const AuthLabelStory = styled.Text`
-  color: #7D7C7C;
+  color: #7d7d7dc7;
   font-size: 14;
   margin-left: 20;
   margin-top: 5;

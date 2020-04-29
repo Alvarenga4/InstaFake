@@ -1,12 +1,18 @@
 /* eslint-disable prettier/prettier */
 import React, { useState } from 'react';
 
-import Stories from '../../components/Stories';
+import { VerticalScroll } from './styles';
 
-export default function Login() {
+import Stories from '../../components/Stories';
+import Feed from '../../components/Feed';
+
+export default function Main() {
   return (
     <>
-      <Stories />
+      <VerticalScroll>
+        <Stories />
+        <Feed />
+      </VerticalScroll>
     </>
   )
 };
